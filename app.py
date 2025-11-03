@@ -126,7 +126,7 @@ with col2:
     status_ekonomi = st.selectbox(
         "Status Ekonomi Keluarga:",
         options=S_EKONOMI_OPTIONS,
-        index=1 # Mampu
+        index=0 # Mampu
     )
 
     jumlah_saudara = st.selectbox(
